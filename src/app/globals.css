@@ -1,3 +1,7 @@
+.app {
+  height: 100vh;
+  background: olivedrab;
+}
 .inputWrapper {
   margin: 10px;
 }
@@ -9,13 +13,37 @@
   width: 200px;
   height: 30px;
 }
-.container {
-  text-align: center;
-}
+
 .buttonLink {
   border: 0;
   cursor: pointer;
   background: transparent;
   color: blue;
   margin: 20px;
+}
+.header {
+  display: flex;
+  padding: 4px;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  background: #f2b9b9;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-left: auto;
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  margin-top: auto;
+  justify-content: center;
+  align-items: center;
+  background: rgb(249, 169, 169);
 }
