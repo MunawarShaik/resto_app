@@ -36,6 +36,13 @@
   margin-left: auto;
   list-style-type: none;
 }
+.header ul li button {
+  background-color: transparent;
+  border: none;
+  color: rgb(219, 247, 95);
+  font-size: medium;
+  cursor: pointer;
+}
 .link {
   text-decoration: none;
 }
