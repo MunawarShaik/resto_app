@@ -21,6 +21,12 @@
   color: blue;
   margin: 20px;
 }
+.inputError {
+  color: red;
+  position: absolute;
+  padding: 8px;
+  font-size: 14px;
+}
 .header {
   display: flex;
   padding: 4px;
