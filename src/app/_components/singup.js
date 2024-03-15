@@ -45,6 +45,7 @@ const Signup = () => {
     if (response.success) {
       console.log("in If Block", response);
       const { result } = response;
+      delete result.password;
       console.log("Result", result);
       localStorage.setItem("restaurantUser", JSON.stringify(result));
       router.push("/restaurant/dashboard");
